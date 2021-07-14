@@ -6,7 +6,7 @@ import com.example.datastore.User.UserPreferences
 import java.io.InputStream
 import java.io.OutputStream
 
-object UserSercile : Serializer<UserPreferences> {
+object UserSerializer : Serializer<UserPreferences> {
     override val defaultValue: UserPreferences
         get() = UserPreferences.getDefaultInstance()
 

@@ -22,7 +22,6 @@ protobuf {
     }
 
     generateProtoTasks {
-        all().each { task ->
             task.builtins {
                 java {
                     option 'lite'
